@@ -75,7 +75,7 @@ def check_file(filename):
         return False, "The file sampling rate is {0} kHz: should be {1} kHz".format(rate / 1000,
                                                                                     Settings.sample_rate / 1000)
 
-    return True, "OK"
+    return True, None
 
 
 def preprocessing(filename):
